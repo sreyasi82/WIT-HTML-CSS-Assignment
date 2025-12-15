@@ -1,0 +1,75 @@
+.nav {
+    color: var(--bs-primary-text-emphasis);
+    background-color: var(--bs-primary-bg-subtle);
+}
+#jumbotron-intro {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: flex-start;
+    /*align-items: flex-start;*/
+}
+ 
+#myname {
+    font-family: 'MyJumbotronFont', sans-serif;
+    font-weight: bolder;
+    color: #2364a5 !important; 
+}
+
+#my_tagline {
+    font-family: 'MyJumbotronFont', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #2364a5 !important;
+}
+#my_bio {
+    font-family: 'MyJumbotronFont', sans-serif;
+    font-weight: bold;
+}
+
+#profile_pic{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /*border: 1px solid black; 
+    border-radius: 8px;*/ 
+    width: 350px; /* Optional: sets minimum boundaries */
+    height: 370px;   
+    resize: both; /* Enables resizing */
+    overflow: auto;  /*Required for resize to work */
+    min-width: 315px; /* Optional: sets minimum boundaries */
+    max-width: 360px; /* Optional: sets maximum boundaries */
+    object-fit: cover;*/
+     
+    
+}
+
+#card-pic {
+    background: #78a8e2;
+}
+#About_me,
+#Key_skills,
+#Work_Exp h3 {
+    font-weight: bolder;
+    text-decoration: underline;
+    color:#78a8e2;
+    background-color: rgb(232, 231, 231);
+}
+#Contact_me img {
+    width: 250px; /* Optional: sets minimum boundaries */
+    height: 250px;   
+    resize: both; /* Enables resizing */
+    overflow: auto
+}
+table, th, td {
+    border: 1px solid black; /* Sets a 1-pixel solid black border */
+    background-color: white !important;
+    color: 78a8e2 !important ;
+  }
+
+@font-face {
+  font-family: 'MyJumbotronFont';
+  src: url('Font/PlayfairDisplay-VariableFont_wght.ttf') format('truetype'),
+  url('Font/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype'),
+  url('Font/DancingScript-VariableFont_wght.ttf') format('truetype');
+}
