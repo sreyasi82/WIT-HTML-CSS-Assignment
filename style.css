@@ -1,3 +1,7 @@
+* {
+    font-family: 'MyJumbotronFont', sans-serif;
+}
+
 .nav {
     color: var(--bs-primary-text-emphasis);
     background-color: var(--bs-primary-bg-subtle);
@@ -5,12 +9,9 @@
 #jumbotron-intro {
     display: flex;
     flex-direction: column;
-    /*justify-content: flex-start;
-    /*align-items: flex-start;*/
 }
  
-#myname {
-    font-family: 'MyJumbotronFont', sans-serif;
+#myname {    
     font-weight: bolder;
     color: #2364a5 !important; 
 }
@@ -21,8 +22,7 @@
     font-style: italic;
     color: #2364a5 !important;
 }
-#my_bio {
-    font-family: 'MyJumbotronFont', sans-serif;
+#my_bio {    
     font-weight: bold;
 }
 
@@ -30,31 +30,36 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: flex-end;
-    /*border: 1px solid black; 
-    border-radius: 8px;*/ 
+    align-items: flex-end; 
     width: 350px; /* Optional: sets minimum boundaries */
     height: 370px;   
     resize: both; /* Enables resizing */
     overflow: auto;  /*Required for resize to work */
     min-width: 315px; /* Optional: sets minimum boundaries */
     max-width: 360px; /* Optional: sets maximum boundaries */
-    object-fit: cover;*/
-     
-    
+    object-fit: cover;    
 }
 
 #card-pic {
     background: #78a8e2;
 }
+
 #About_me,
-#Key_skills,
+#Key_skills h3,
 #Work_Exp h3 {
     font-weight: bolder;
     text-decoration: underline;
     color:#78a8e2;
     background-color: rgb(232, 231, 231);
 }
+
+th,
+#column_1 {
+    text-align: center;
+    background: #cedef2;
+    font-weight: bold;
+}
+
 #Contact_me img {
     width: 250px; /* Optional: sets minimum boundaries */
     height: 250px;   
@@ -62,9 +67,10 @@
     overflow: auto
 }
 table, th, td {
-    border: 1px solid black; /* Sets a 1-pixel solid black border */
-    background-color: white !important;
-    color: 78a8e2 !important ;
+    align-content: center;
+    border: 3px solid black; /* Sets a 1-pixel solid black border */
+    /*background-color: white !important;
+    color: #78a8e2 !important ;*/
   }
 
 @font-face {
